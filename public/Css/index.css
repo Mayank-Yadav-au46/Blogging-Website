@@ -1,0 +1,127 @@
+body {
+  background-color: black;
+  height: 100rem;
+}
+nav {
+  /* position: sticky; */
+  top: 0;
+  margin-bottom: 10px;
+  background-color: rgb(148, 116, 9);
+  border-radius: 0px;
+  padding: 10px;
+  color: white;
+  box-shadow: 0.2rem 0.2rem 0.5rem white;
+}
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+nav > span {
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 20px;
+}
+.login {
+  margin-left: 55rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.signup {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.login:hover {
+  padding: 0.5%;
+  border-radius: 0.5rem;
+  background-color: black;
+  font-size: 1.5rem;
+  transition: 0.2s;
+}
+.signup:hover {
+  padding: 0.5%;
+  border-radius: 5px;
+  background-color: black;
+  font-size: 1.5rem;
+  transition: 0.2s;
+}
+#signup {
+  font-size: 2.5rem;
+  color: orangered;
+}
+#login {
+  font-size: 2.5rem;
+  color: orangered;
+}
+#login:hover {
+  padding: 0.5%;
+  font-size: 3rem;
+  background-color: rgba(255, 255, 255, 0.74);
+  border-radius: 15px;
+  color: rgb(7, 7, 131);
+  transition: 0.4s;
+}
+h3 {
+  margin: 4rem 2rem;
+}
+.blog-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  /* width: 80rem;
+  height: 55rem; */
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.card-w {
+  margin: 1rem;
+  
+  box-shadow: 0px 0px 1px white;
+  border-radius: 5px;
+  height: 24rem;
+  width: 20rem;
+  text-align: center;
+  color: orangered;
+  background-color: rgba(20, 20, 20, 0.829);
+}
+.card-w:hover {
+  transition: 0.2s;
+  padding: 1%;
+  box-shadow: 0rem 0rem 0.5rem rgb(204, 198, 198);
+  height: 25rem;
+  width: 21rem;
+}
+.head {
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.808);
+  height: 3rem;
+  width: 17rem;
+  border: 1px solid yellow;
+}
+.description {
+  border: 1px solid rgb(83, 82, 82);
+  box-shadow: 1px 1px 1px solid rgb(211, 211, 216);
+  font-size: 1.2rem;
+  color: whitesmoke;
+  margin-left: 2px;
+  align-items: start;
+  text-align: left;
+  margin-top: 1rem;
+  height: 12rem;
+  width: 19rem;
+  color: rgb(177, 228, 95);
+}
+.content{
+  font-size: 1.4rem;
+  border: 1px solid rgba(112, 112, 122, 0.267);
+  margin-left: 2px;
+  align-items: start;
+  margin-top: 1rem;
+  height: 5rem;
+  width: 19rem;
+  color: rgb(177, 228, 95);
+}

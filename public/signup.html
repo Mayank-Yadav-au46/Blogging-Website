@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SignUp</title>
+  </head>
+  <link href="./Css/signUp.css" rel="stylesheet">
+  <script src="./Scripts/signup_script.js" defer></script>
+  
+  <body>
+    <fieldset>      
+        <div class="form">            
+          <h1 style="text-align: center ;">Sign Up</h1><br>
+          <button class="btn1">1</button>
+          <span> Your Basic Info</span><br><br>
+          <label for="inpN">Your Full Name:</label><br>
+          <input id = "inpN" class="inp" type="text" name="name" required></input>
+          <br><br>
+          <label for="email">Email:</label><br>
+          <input id = "email" class="inp" type="email" name="email" required></input>
+          <br><br>       
+          
+          <label for="pass">Password:</label><br>
+          <input class="inp" id="pass" type="password" name="pass" required>
+          <br><br>
+          <label for="pass">Confirm Password:</label><br>
+          <input class="inp" id="Cpass" type="password" name="cpass" required>
+          <br><br>
+          
+          
+          <button class="submit" type="submit" onclick="add_data()">SignUp</button>
+        </div>          
+      </fieldset>
+  </body>
+</html>
